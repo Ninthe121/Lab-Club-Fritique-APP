@@ -158,3 +158,31 @@ section {
 .merchscroll{
     padding-bottom: 100px;
 }
+
+/* Rating 1 */
+.frituur,
+.sterkroon{
+    display: block;
+    margin: 0 auto;
+}
+
+.sterkroon{
+    padding-top: 1.5em;
+}
+
+.frituur img{
+    width: 250px;
+}
+
+.links{
+  text-decoration: none;
+  background-color: #781118;
+  color: #F5F1DC;
+  text-align: center;
+  font-size: 2em;
+  padding: 12px 40px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 0.5em auto;
+  width: 175px;
+}
