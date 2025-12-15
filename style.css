@@ -2,7 +2,72 @@ body{
     background-color: #F5F1DC;
 }
 
+/*TEKST*/
+h1{
+    padding-top: 1em;
+    color: #102022;
+    font-size: 3em;
+    text-align: center;
+}
+
+/*PROFILE*/
+.profile {
+    position: fixed;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    
+}
+.profile img {
+    width: 60px  
+}
+
+/*HOME*/
+.logohome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logohome img{
+    width: 250px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.buttonophome{
+  text-decoration: none;
+  background-color: #780116;
+  color: #F5F1DC;
+  text-align: center;
+  font-size: 2em;
+  padding: 12px 30px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 1.7em auto;
+  width: 175px;
+}
+
+/*NAV BAR VANONDER*/
 nav{
     background-color: #781118;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
 
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    
 }
