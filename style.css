@@ -7,16 +7,23 @@
 
 body{
     background-color: #F5F1DC;
+    padding-bottom: 80px;
 }
 
 /*TEKST*/
 h1{
     font-family: "Galada", cursive;
-    padding-top: 0.3em;
     color: #102022;
     font-size: 3em;
     text-align: center;
+    margin-top: 0em;
+    line-height: 1;
+    margin-bottom: 0em;
+}
 
+.grotetitel{
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
 }
 
 /*PROFILE*/
@@ -190,12 +197,44 @@ nav{
 
 /*SCOREBORD*/
 
-.search {
+.searchbar {
+  position: relative;
   width: 80%;
-  padding: 0.7em 1em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 70%;
+  padding: 0.7em 1em 0.7em 3em;
   border-radius: 20px;
   border: 2px solid #781118;
   margin-bottom: 1.5em;
+}
+
+.zoekicon{
+  position: absolute;
+  right: 55px;
+  top: 10px;
+}
+
+.zoekicon img{
+  width: 18px;
+  height: 18px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.5em;
+}
+
+.dropdown select{
+   background-color: #781118;
+   color: #F5F1DC;
+   padding: 0.5em;
+   border-radius: 10px;
 }
 
 .scorebord {
@@ -204,24 +243,28 @@ nav{
   border-radius: 15px;
   padding: 1em 1.2em;
   margin: 1.5em;
+  
 }
 
 .scoretitel {
   text-align: center;
-  margin-bottom: 0.8em;
+  font-size: 2em;
+  margin-bottom: 0.5em;
 }
 
 .scorelijst {
+  font-family: "Galada", cursive;
   padding: 0;
   margin: 0;
+  font-size: 1.2em;
 }
 
 .scorelijst li {  /* IK vond het heel moeilijk het uit te lijnen dus heb ik aan chatgpt gevraagd hoe dit kon en hoe de grid werkte*/
   display: grid;
   grid-template-columns: 1fr auto auto;
   align-items: center;
-  gap: 1em;
-  padding: 0.35em 0;
+  gap: 3em;
+  padding: 0;
   color: white;
 }
 
