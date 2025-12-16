@@ -269,9 +269,88 @@ nav{
   width: 175px;
 }
 
+/*Rating kaart*/
+.ratingcard{
+  font-family: "Galada", cursive;
+  background-color: #78111882;
+  width: 70%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border: 3px solid #781118;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.klik{
+  width: 40px;
+}
+
+.saus{
+  color: white;
+}
+
+
+.helerating{
+  border-bottom: 3px solid #781118;
+}
+.opmerking{
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.veld{
+  width: 85%;
+  padding: 0.7em 1em 7em 3em;
+  border-radius: 10px;
+  border: 2px solid #781118;
+  margin-bottom: 1.5em;
+}
+
+.legefoto{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: center;
+}
+.fotoladen{
+  display: flex;
+  flex-direction: row;
+}
+.fotoladen a{
+  font-family: "brother-1816-printed", sans-serif;
+  text-decoration: none;
+  background-color: #780116;
+  color: #F5F1DC;
+  text-align: center;
+  font-size: 1em;
+  padding: 12px 30px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto 1.7em auto;
+  width: 150px;
+}
+.opslaan a{
+  font-family: "brother-1816-printed", sans-serif;
+  text-decoration: none;
+  background-color: #780116;
+  color: #F5F1DC;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 12px 30px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto 1.7em auto;
+  margin-top: 1em;
+  width: 175px;
+}
 
 /*SCOREBORD*/
-
 .searchbar {
   position: relative;
   width: 80%;
@@ -362,4 +441,3 @@ nav{
   font-size: 1.5em;
 }
 
-/*MERCHITEM
