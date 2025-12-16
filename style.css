@@ -4,6 +4,11 @@
   font-style: normal;
 }
 
+.Brother-1816-Printed-Regular {
+  font-family: "brother-1816-printed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 body{
     background-color: #F5F1DC;
@@ -166,6 +171,76 @@ nav{
     padding-bottom: 100px;
 }
 
+/*MERCHITEM */
+.merchkopen{
+  text-align: center;
+}
+
+.bewaartitel{
+  font-family: "Galada", cursive;
+}
+
+.vierkant{
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  background-color: #78111882;
+  border: 3px solid #781118;
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.merchkopen{
+    font-family: "brother-1816-printed", sans-serif;
+
+}
+.stemmen{
+  font-family: "brother-1816-printed", sans-serif;
+  font-weight: bold;
+}
+
+.buttonopmerchitem{
+  font-family: "brother-1816-printed", sans-serif;
+  text-decoration: none;
+  background-color: #780116;
+  color: #F5F1DC;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 12px 30px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto 1.7em auto;
+  width: 175px;
+}
+
+/* MERCHINKAR*/
+.Inhoudkar {
+  font-family: "brother-1816-printed", sans-serif;
+  border-bottom: 3px solid #781118;
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+.vierkant2 img{
+  width: 150px;
+  height: 150px;
+}
+
+.buttonopmerchinkar{
+  padding-top: 6.3em;
+  margin-bottom: 2em;
+}
+
+
 /* Rating 1 */
 .frituur,
 .sterkroon{
@@ -287,3 +362,4 @@ nav{
   font-size: 1.5em;
 }
 
+/*MERCHITEM
