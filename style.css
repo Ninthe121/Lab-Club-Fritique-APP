@@ -125,7 +125,7 @@ nav{
     width: 60px;
 }
 
-section {
+.merchscroll {
     display: flex;
     flex-wrap: wrap;        
     gap: 1.5em;              
@@ -186,3 +186,61 @@ section {
   margin: 0 auto 0.5em auto;
   width: 175px;
 }
+
+
+/*SCOREBORD*/
+
+.search {
+  width: 80%;
+  padding: 0.7em 1em;
+  border-radius: 20px;
+  border: 2px solid #781118;
+  margin-bottom: 1.5em;
+}
+
+.scorebord {
+  background-color: #B98A82;
+  border: 3px solid #781118;
+  border-radius: 15px;
+  padding: 1em 1.2em;
+  margin: 1.5em;
+}
+
+.scoretitel {
+  text-align: center;
+  margin-bottom: 0.8em;
+}
+
+.scorelijst {
+  padding: 0;
+  margin: 0;
+}
+
+.scorelijst li {  /* IK vond het heel moeilijk het uit te lijnen dus heb ik aan chatgpt gevraagd hoe dit kon en hoe de grid werkte*/
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 1em;
+  padding: 0.35em 0;
+  color: white;
+}
+
+.sterren::after {
+  color: #E36414;
+  stroke: white;
+  stroke-width: 5px;
+  content: "★";  /* Ik heb dit sterretje opgezocht*/
+}
+
+.snack {
+  font-weight: bold;
+}
+
+.getest {
+  font-size: 1em;
+}
+
+.sterren {
+  font-size: 1.5em;
+}
+
