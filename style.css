@@ -33,7 +33,7 @@ h1{
 
 /*PROFILE*/
 .profile {
-    position: fixed;
+    position: absolute;
     top: 10px;
     right: 10px;
     
@@ -53,8 +53,15 @@ h1{
     width: 250px;
 }
 
+.clubtitel{
+  font-family: "Galada", cursive;
+  font-weight: bold;
+  font-size: 2em;
+}
 .intro {
     text-align: center;
+    font-family: "brother-1816-printed", sans-serif;
+
 }
 
 .buttonophome{
@@ -92,6 +99,10 @@ nav{
     gap: 4em;
 }
 
+.icons img{
+  width: 27px;
+}
+
 /*KALENDER*/
 .event{
     display: flex;
@@ -112,16 +123,22 @@ nav{
 }
 
 .titelevent {
+    font-family: "Galada", cursive;
     color: white;
     font-size: 1.5em;
 }
 
 .kalenderinfo p {
     margin: 0;
+    font-family: "brother-1816-printed", sans-serif;
 }
 
 .binnenkort{
+   font-family: "Galada", cursive;
+   font-size: 1.2em;
+   font-weight: bolder;
     text-align: center;
+    margin-top: 0;
 }
 
 
@@ -163,6 +180,7 @@ nav{
 }
 
 .onderschrift p{
+    font-family: "brother-1816-printed", sans-serif;
     margin-top: 0.5em;
     text-align: center;
 }
